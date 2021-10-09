@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    background-color: black;
+    height: 60px;
+    color: white;
+    width: 100%;
+}
+.center{
+    padding: 5px;
+    margin-left: 200px;
+}
+.center ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.center ul li {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 15px;
+}
+
+.center ul li :hover {
+    background-color: #ccc;
+    color: #000;
+    border-radius: 20px;
+}
+
+.center ul li a {
+    color: #b0b3b8;
+    display: inline-block;
+    padding: 10px;
+}
+.center i{
+    font-size: 35px;
+    margin: 0px 10px;
+}
+.leftside{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 20px;
+    font-size: 40px;
+    position: relative;
+}
+.leftside .face img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 20px;
+}
+.leftside .search  input{
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    border: solid;
+    border-width: 1px;
+    border-color: #3a3b3c;
+    background-color:#3a3b3c;
+}
+.rightside{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.rightside button  {
+    text-align: center;
+    background-color:#3a3b3c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 20px;
+    position: relative;
+    margin-left: 5px;
+}
+.rightside .profile{
+    border-radius: 20px;
+    position: relative;
+    width: 120px;
+    height: 40px;
+}
+.pimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.rightside .text{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.rightside button:hover{
+    background-color: #686a6e;
+    
+}
+.rightside .profile .text:active{
+    color: blue;
+}
+.rightside button a{
+    padding: 5px;
+    text-decoration: none;
+    color: #e4e6eb;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 5px;
+    margin: 5px;
+}
+.rightside .profile a{
+    padding: 0;
+    margin: 0;
+}
+.rightside i {
+    font-size: 18px;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.heading .stories{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+.stories .status{
+    position: relative;
+}
